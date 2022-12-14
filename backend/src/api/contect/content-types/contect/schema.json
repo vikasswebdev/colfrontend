@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contects",
+  "info": {
+    "singularName": "contect",
+    "pluralName": "contects",
+    "displayName": "Contect"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "integer"
+    }
+  }
+}
